@@ -62,13 +62,13 @@ class MainActivity : AppCompatActivity(), GameTask {
                         }
                         if (msg != "") {
                             val build =AlertDialog.Builder(this)
-                            build.setTitle("排行榜")
+                            build.setTitle("成績紀錄\n(依照上傳時間排列)\n\n")
                             build.setMessage(msg)
                             build.setNegativeButton("關閉",null)
                             build.show()
                         } else {
                             val build =AlertDialog.Builder(this)
-                            build.setTitle("排行榜")
+                            build.setTitle("成績紀錄")
                             build.setMessage("查無資料")
                             build.setNegativeButton("關閉",null)
                             build.show()

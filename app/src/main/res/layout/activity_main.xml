@@ -9,13 +9,22 @@
     android:id="@+id/rootLayout"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/logo" />
+
     <TextView
-        android:id="@+id/score"
-        android:textSize="28sp"
-        android:text="分數 ： 0"
-        android:textAlignment="center"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="!! 三寶讓讓我 !!"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        android:textColor="@color/teal_700"/>
+
+
 
     <Button
         android:id="@+id/startBtn"
@@ -24,6 +33,13 @@
         android:text="start"
         android:backgroundTint="#FD397C"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/score"
+        android:textSize="28sp"
+        android:text="分數 ： 0"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
@@ -47,11 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="排行榜" />
-
-
-
-
+        android:text="成績紀錄" />
 
 
 </LinearLayout>
