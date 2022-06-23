@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "590115052357",
+    "project_id": "carg-73c96",
+    "storage_bucket": "carg-73c96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590115052357:android:e8158113993554abdf3c2c",
+        "android_client_info": {
+          "package_name": "tw.edu.pu.s1090350.carracegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590115052357-dpg9sqaptadugf0hs9acifocm5sggkh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1qRd2Ta9sHgsfsTYXN2SD_HVqEm4oK58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590115052357-dpg9sqaptadugf0hs9acifocm5sggkh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
